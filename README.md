@@ -76,6 +76,32 @@ The notebook prints:
 - how many unsolved problems are left
 - a few random problem names and links
 
+## Demo output
+
+Example output:
+
+```text
+Fetching solved problems for 'srrobin'...
+Found 245 solved problems.
+
+Fetching recent contests from the last 100 days...
+Found 18 recent contests.
+
+Fetching problems with difficulty 800-1000 from these contests...
+Found 42 problems in that range.
+Found 19 unsolved problems in that range.
+
+Here are 3 random unsolved problems for you:
+1. Problem Name One
+	https://codeforces.com/problemset/problem/1234/A
+
+2. Problem Name Two
+	https://codeforces.com/problemset/problem/1250/B
+
+3. Problem Name Three
+	https://codeforces.com/problemset/problem/1300/C
+```
+
 ## Notes
 
 - The script uses the public Codeforces API.
